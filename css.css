@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+    
+}
+#drawing{
+    background-color: yellow;
+    display: grid;
+    height: 400px;
+    width: 400px;
+    grid-template-columns: repeat(25,1fr);
+    grid-template-rows: repeat(25,1fr);
+
+}
+.activedrawing{
+border: 1px solid black;
+
+}
+#slidecontainer {
+    width: 100%;
+}
+.main {
+    display: flex;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+}
